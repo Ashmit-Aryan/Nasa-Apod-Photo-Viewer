@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragment.FragmentPicOfTheday">
+    <ProgressBar
+        android:id="@+id/progressCircularYesterday"
+        android:layout_width="93dp"
+        android:layout_height="73dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="158dp"
+        android:layout_marginTop="294dp"
+        android:layout_marginEnd="160dp" />
+
+    <androidx.core.widget.NestedScrollView android:id="@+id/nestedScrollViewYesterday"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        >
+
+        <ImageView
+            android:id="@+id/pic_of_yesterday"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@mipmap/ic_launcher_round"
+
+            />
+
+        <TextView
+            android:id="@+id/tvTitleYesterday"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Title :- Nebula's With Hazy Clouds"
+            android:textColor="#FF000000"
+            android:textStyle="bold|italic"
+            android:layout_margin="1dp"
+            android:textSize="20sp" />
+
+
+
+        <TextView
+            android:id="@+id/tvDateYesterday"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date:-11/11/11"
+            android:textColor="#FF000000"
+            android:layout_margin="1dp"
+            android:textStyle="bold|italic"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tvDescriptionYesterday"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FF000000"
+            android:layout_margin="1dp"
+            android:textStyle="bold|italic"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tvCopyRightYesterday"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold|italic"
+            android:text="@string/copyright"
+            android:textColor="#FF000000"
+            android:layout_margin="1dp"
+            android:textSize="15sp" />
+    </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</RelativeLayout>

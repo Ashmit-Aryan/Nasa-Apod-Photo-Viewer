@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.AboutFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Copyuright"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="44dp"
+            android:layout_marginEnd="-6dp"
+            android:text="Images ©Copyright/Credit's goes to it's Respected Owner \n Information ©Copyright/Credit's goes to it's Respected Owner (See Picture's Page End) \n \n App ©Copyright/Credit's Goes To Team Developer WoW TeCh NoW"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="italic|bold" />
+
+        <TextView
+            android:id="@+id/Copyuright"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:textAlignment="center"
+            android:text="©Copyright/Credit's"
+            android:textColor="@android:color/black"
+            android:textSize="30sp"
+            android:textStyle="italic|bold" />
+
+        <TextView
+            android:id="@+id/Developer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Developers:- \n All The Development Done In This App \n By Team Developer WoW TeCh NoW"
+            android:layout_below="@+id/info"
+            android:layout_margin="10dp"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            android:textStyle="bold|italic"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            />
+
+        <TextView
+            android:id="@+id/tvFeedBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Developer"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="19dp"
+            android:layout_marginEnd="114dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/rount_button_white"
+            android:text="Provide FeedBack \n Email Us "
+            android:textAlignment="center"
+            android:textColor="@android:color/holo_blue_light"
+            android:textSize="20dp"
+            android:textStyle="bold|italic" />
+    </RelativeLayout>
+
+</androidx.core.widget.NestedScrollView>

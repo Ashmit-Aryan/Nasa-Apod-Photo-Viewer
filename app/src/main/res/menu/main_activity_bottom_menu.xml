@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/ImageFragment"
+        android:icon="@drawable/ic_round_image_24"
+        android:title=" 10 Days Image"
+        />
+
+    <item
+        android:id="@+id/SearchFragment"
+        android:icon="@drawable/ic_round_search_24"
+        android:title="Search For Image"
+        />
+
+    <item
+        android:id="@+id/AboutFragment"
+        android:icon="@drawable/ic_baseline_apps_24"
+        android:title="About The App"
+        />
+
+</menu>

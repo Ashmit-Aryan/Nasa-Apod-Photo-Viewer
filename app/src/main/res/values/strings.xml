@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Nasa Photo Viewer</string>
+    <string name="copyright">©Copyright To Nasa</string>
+    <string name="ApodFragment">Picture Of The day</string>
+    <string name="mars_rover_activity">Mars Rover Picture</string>
+    <string name="curiosity">Curiosity</string>
+    <string name="opportunity">Opportunity</string>
+    <string name="spirit">Spirit</string>
+
+
+</resources>
